@@ -1,0 +1,41 @@
+name: refine issue
+about: Use this template for creating a refine issue.
+title: "[DATE]: [FEATURE NAME]"
+labels: refine
+assignees:
+
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the feature you want to refine.
+      placeholder: Describe the feature you want to refine.
+      validations:
+        required: true
+  - type: checkboxes
+    id: acceptance-criteria
+    attributes:
+      label: Acceptance Criteria
+      description: List the acceptance criteria for this feature.
+      options:
+        - label: Criteria 1
+        - label: Criteria 2
+        - label: Criteria 3
+
+  - type: checkboxes
+    id: definition-of-done
+    attributes:
+      label: Definition of Done
+      description: List the definition of done for this feature.
+      options:
+        - label: Done 1
+        - label: Done 2
+        - label: Done 3
+  
+  - type: textarea
+    id: additional-information
+    attributes:
+      label: Additional Information
+      description: Add any other context or screenshots about the feature request here.
+      placeholder: Add any other context or screenshots about the feature request here.
