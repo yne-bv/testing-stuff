@@ -1,3 +1,4 @@
+---
 name: refine issue
 about: Use this template for creating a refine issue.
 title: "[DATE]: [FEATURE NAME]"
@@ -39,3 +40,4 @@ body:
       label: Additional Information
       description: Add any other context or screenshots about the feature request here.
       placeholder: Add any other context or screenshots about the feature request here.
+---
