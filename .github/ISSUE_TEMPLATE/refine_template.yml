@@ -1,8 +1,7 @@
 name: refine issue
-about: Use this template for creating a refine issue.
+description: Create a refine issue to improve a feature
 title: "[DATE]: [FEATURE NAME]"
-labels: refine
-assignees: ''
+labels: ["refine"]
 
 body:
   - type: textarea
@@ -11,8 +10,9 @@ body:
       label: Description
       description: Describe the feature you want to refine.
       placeholder: Describe the feature you want to refine.
-      validations:
-        required: true
+    validations:
+      required: true
+
   - type: checkboxes
     id: acceptance-criteria
     attributes:
