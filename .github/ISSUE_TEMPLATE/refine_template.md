@@ -3,7 +3,7 @@ name: refine issue
 about: Use this template for creating a refine issue.
 title: "[DATE]: [FEATURE NAME]"
 labels: refine
-assignees:
+assignees: ''
 
 body:
   - type: textarea
