@@ -1,6 +1,6 @@
-name: refine issue
-description: Create a refine issue to improve a feature
-title: "[DATE]: [FEATURE NAME]"
+name: Create refinement
+description: Create a refinement issue to improve a feature
+title: "Refinement title"
 labels: ["refine"]
 
 body:
