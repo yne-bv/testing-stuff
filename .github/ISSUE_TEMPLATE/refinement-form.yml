@@ -19,7 +19,7 @@ body:
     attributes:
       label: Goal
       description: List the goals for this feature.
-      placeholder: |
+      value: |
         - Goal 1
         - Goal 2
         - Goal 3
@@ -29,7 +29,7 @@ body:
     attributes:
       label: Acceptance Criteria
       description: List the acceptance criteria for this feature.
-      placeholder: |
+      value: |
         - Criteria 1
         - Criteria 2
         - Criteria 3
