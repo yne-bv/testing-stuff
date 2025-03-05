@@ -5,19 +5,6 @@ labels: ["refine", "feature"]
 projects: [""]
 
 body:
-  - type: dropdown
-    id: task-type
-    attributes:
-      label: Task Type
-      description: Select the type of refinement task.
-      options:
-        - Feature
-        - Epic
-        - Task
-        - Bug
-    validations:
-      required: true
-
   - type: textarea
     id: description
     attributes:
@@ -27,25 +14,25 @@ body:
     validations:
       required: true
 
-  - type: checkboxes
+  - type: textarea
     id: goals
     attributes:
       label: Goal
       description: List the goals for this feature.
-      options:
-        - label: Goal 1
-        - label: Goal 2
-        - label: Goal 3
+      placeholder: |
+        - Goal 1
+        - Goal 2
+        - Goal 3
 
-  - type: checkboxes
+  - type: textarea
     id: acceptance-criteria
     attributes:
       label: Acceptance Criteria
       description: List the acceptance criteria for this feature.
-      options:
-        - label: Criteria 1
-        - label: Criteria 2
-        - label: Criteria 3
+      placeholder: |
+        - Criteria 1
+        - Criteria 2
+        - Criteria 3
 
   - type: textarea
     id: additional-information
