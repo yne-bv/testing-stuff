@@ -1,6 +1,6 @@
-name: Create refinement
-description: Create a refinement issue to improve a feature
-title: "✨ Refinement title"
+name: Create feature
+description: Create a feature issue
+title: "✨ Feature title"
 labels: ["refine", "feature"]
 projects: [""]
 
@@ -8,9 +8,9 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: Description
-      description: Describe the feature you want to refine.
-      placeholder: Describe the feature you want to refine.
+      label: Problem description
+      description: Describe the problem
+      placeholder: Describe the problem
     validations:
       required: true
 
@@ -18,7 +18,7 @@ body:
     id: goals
     attributes:
       label: Goal
-      description: List the goals for this feature.
+      description: List the goals for this feature
       value: |
         - Goal 1
         - Goal 2
@@ -28,7 +28,7 @@ body:
     id: acceptance-criteria
     attributes:
       label: Acceptance Criteria
-      description: List the acceptance criteria for this feature.
+      description: List the acceptance criteria for this feature
       value: |
         - Criteria 1
         - Criteria 2
@@ -38,5 +38,5 @@ body:
     id: additional-information
     attributes:
       label: Additional Information
-      description: Add any other context or screenshots about the feature request here.
-      placeholder: Add any other context or screenshots about the feature request here.
+      description: Add any other context or screenshots about the feature request here
+      placeholder: Add any other context or screenshots about the feature request here
