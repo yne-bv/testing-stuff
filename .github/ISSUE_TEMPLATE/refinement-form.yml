@@ -1,9 +1,23 @@
 name: Create refinement
 description: Create a refinement issue to improve a feature
-title: "Refinement title"
-labels: ["refine"]
+title: "✨ Refinement title"
+labels: ["refine", "feature"]
+projects: [""]
 
 body:
+  - type: dropdown
+    id: task-type
+    attributes:
+      label: Task Type
+      description: Select the type of refinement task.
+      options:
+        - Feature
+        - Epic
+        - Task
+        - Bug
+    validations:
+      required: true
+
   - type: textarea
     id: description
     attributes:
@@ -12,6 +26,16 @@ body:
       placeholder: Describe the feature you want to refine.
     validations:
       required: true
+
+  - type: checkboxes
+    id: goals
+    attributes:
+      label: Goal
+      description: List the goals for this feature.
+      options:
+        - label: Goal 1
+        - label: Goal 2
+        - label: Goal 3
 
   - type: checkboxes
     id: acceptance-criteria
@@ -23,16 +47,6 @@ body:
         - label: Criteria 2
         - label: Criteria 3
 
-  - type: checkboxes
-    id: definition-of-done
-    attributes:
-      label: Definition of Done
-      description: List the definition of done for this feature.
-      options:
-        - label: Done 1
-        - label: Done 2
-        - label: Done 3
-  
   - type: textarea
     id: additional-information
     attributes:
